@@ -3,7 +3,7 @@ import styles from './page.module.css'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main>
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
@@ -53,7 +53,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="/about"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
