@@ -8,6 +8,10 @@ export interface ContactProps {
     className?: string;
 }
 
+export interface SubHeroProps {
+    className?: string;
+}
+
 const Button = styled.a<ButtonProps>`
     background: ${colors.primaryColor};
     color: ${colors.lightColor};
@@ -40,4 +44,17 @@ const Contact = styled.a<ContactProps>`
     }
 `;
 
-export { Button, Contact };
+const SubHero = styled.div<SubHeroProps>`
+    margin: 0 4rem;
+    margin-top: 4rem;
+    /* height: 600px; */
+    
+    img {
+        border-radius: 38px;
+        width: 100%;
+        height: 100%;
+    }
+
+`;
+
+export { Button, Contact, SubHero };

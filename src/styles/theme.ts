@@ -12,6 +12,7 @@ export interface Sizes {
   export interface Colors {
     primaryColor: string;
     textColor: string;
+    titleColor: string;
     darkColor: string;
     bgColor: string;
     lightColor: string;
@@ -31,6 +32,7 @@ export interface Sizes {
   export const colors: Colors = {
     primaryColor: '#086AD8',
     textColor: '#032348',
+    titleColor: '#787070',
     darkColor: '#032348',
     bgColor: '#FFF9E9',
     lightColor: '#fff',
