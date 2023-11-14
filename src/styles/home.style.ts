@@ -12,6 +12,10 @@ export interface SubHeroProps {
     className?: string;
 }
 
+export interface ImgWrapperProps {
+    className?: string;
+}
+
 const Button = styled.a<ButtonProps>`
     background: ${colors.primaryColor};
     color: ${colors.lightColor};
@@ -32,6 +36,9 @@ const Contact = styled.a<ContactProps>`
     color: ${colors.primaryColor};
 
     font-size: 18px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 
     padding: 1rem 2.5rem;
     border: 2px solid ${colors.primaryColor};
@@ -41,6 +48,17 @@ const Contact = styled.a<ContactProps>`
     &:hover {
         background: ${colors.primaryColor};
         color: ${colors.lightColor};
+
+        svg {
+            transform: translate(10px);
+            transition: all .5s ease-in-out;
+        }
+    }
+
+    svg {
+        font-size: 24px;
+        font-weight: 600;
+        margin-left: 1rem;
     }
 `;
 
@@ -57,4 +75,13 @@ const SubHero = styled.div<SubHeroProps>`
 
 `;
 
-export { Button, Contact, SubHero };
+const ImgWrapper = styled.div<ImgWrapperProps>`
+    width: 250px;
+    
+    img {
+        width: 100%;
+        height: 100%;
+    }
+`;
+
+export { Button, Contact, SubHero, ImgWrapper };

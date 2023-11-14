@@ -1,8 +1,8 @@
 "use client"
 import React from "react";
 import { Logo, Wrapper, NavLinks, Button } from "@/styles/navbar.style";
-import {logo} from '../../../public/assets/index'
-import { Image } from '@chakra-ui/react'
+import {NavLogo} from '../../../public/assets/index'
+import Image from 'next/image';
 
 interface NavbarProps {}
 
@@ -11,17 +11,14 @@ const Navbar: React.FC<NavbarProps> = () => {
   return (
     <Wrapper suppressHydrationWarning>
       <Logo>
-        KwikPay
+        <Image src={NavLogo} alt='logo' />
       </Logo>
       <NavLinks>
-        <li>
-          <a href="/">Home</a>
-        </li>
         <li>
           <a href="/about">About</a>
         </li>
         <li>
-          <a href="/about">Support</a>
+          <a href="/about">How It Works</a>
         </li>
         <li>
           <a href="/about">Blog</a>

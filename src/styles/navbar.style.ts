@@ -30,13 +30,13 @@ const Wrapper = styled.nav<WrapperProps>`
 `;
 
 const Logo = styled.div<LogoProps>`
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 250px;
+  height: 100px;
 
-  font-size: 28px;
-  font-weight: 600;
-  color: ${colors.primaryColor};
+  img {
+    width: 100%;
+    height: 100%;
+  }
 `;
 
 const NavLinks = styled.ul<NavLinksProps>`
