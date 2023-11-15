@@ -18,7 +18,7 @@ export interface ButtonProps {
 
 const Wrapper = styled.nav<WrapperProps>`
   width: 100%;
-  padding: 1.4rem 3rem;
+  padding: 1rem 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;

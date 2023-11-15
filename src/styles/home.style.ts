@@ -48,10 +48,11 @@ const Contact = styled.a<ContactProps>`
     &:hover {
         background: ${colors.primaryColor};
         color: ${colors.lightColor};
+        transition: all 1s ease-in-out;
 
         svg {
             transform: translate(10px);
-            transition: all .5s ease-in-out;
+            transition: all .3s ease-in-out;
         }
     }
 

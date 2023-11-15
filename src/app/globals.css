@@ -19,3 +19,12 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.company-link {
+  color: #086AD8;
+  cursor: pointer;
+}
+
+.company-link:hover {
+  text-decoration: underline;
+}

@@ -61,7 +61,7 @@ const Footer: React.FC<FooterProps> = () => {
         </Grid>
       </FooterWrapper>
       <Center bg={`${colors.titleColor}`} h='2px' mx='3rem' />
-      <Text textAlign='center' fontSize="14px" fontWeight='400' color={`${colors.lightColor}`} py='1rem' pt='2rem'>© 2023 KwikPay. All rights reserved.</Text>
+      <Text textAlign='center' fontSize="14px" fontWeight='400' color={`${colors.lightColor}`} py='1rem' pt='2rem'>© 2023 KwikPay. All rights reserved. &nbsp; Powered by <a href="zorftstech.com" target={'_blank'} className='company-link'>Zorfts Technologies Ltd</a></Text>
     </Container>
   );
 };

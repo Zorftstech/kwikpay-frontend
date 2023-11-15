@@ -16,7 +16,7 @@ const WhatWeDO: React.FC<WhatWeDoProps> = () => {
 
       <Flex flexDir='row' gap='2rem' my='2rem'>
         <Box borderRadius='16px' bg={`${colors.lightColor}`} p='20px'>
-          <Heading fontSize='38px' mb='.8rem'><span style={{color: `${colors.primaryColor}`}}>Receive</span> my payments</Heading>
+          <Heading fontSize='46px' mb='.8rem'><span style={{color: `${colors.primaryColor}`}}>Receive</span> my payments</Heading>
           <Text fontWeight='400'>Start your business with fast online company incorporation. Plus, a bank account and registered address from day one.</Text>
 
           <Flex gap='1rem' alignItems='flex-end' mt='2rem'>
@@ -33,7 +33,7 @@ const WhatWeDO: React.FC<WhatWeDoProps> = () => {
 
         {/* ================ second card ==================  */}
         <Box borderRadius='16px' bg={`${colors.lightColor}`} p='20px'>
-          <Heading fontSize='42px' mb='.8rem'><span style={{ color: `${colors.primaryColor}`}}>Switch</span> to KwikPay</Heading>
+          <Heading fontSize='46px' mb='.8rem'><span style={{ color: `${colors.primaryColor}`}}>Switch</span> to KwikPay</Heading>
           <Text fontWeight='400'>Start your business with fast online company incorporation. Plus, a bank account and registered address from day one.</Text>
 
           <Flex gap='1rem' alignItems='flex-end' mt='2rem' mb='0'>
