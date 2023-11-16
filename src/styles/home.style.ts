@@ -15,6 +15,9 @@ export interface SubHeroProps {
 export interface ImgWrapperProps {
     className?: string;
 }
+export interface ImgCardProps {
+    className?: string;
+}
 
 const Button = styled.a<ButtonProps>`
     background: ${colors.primaryColor};
@@ -85,4 +88,16 @@ const ImgWrapper = styled.div<ImgWrapperProps>`
     }
 `;
 
-export { Button, Contact, SubHero, ImgWrapper };
+const ImgCard = styled.div<ImgCardProps>`
+    width: 50%;
+    margin: 1rem 0;
+    
+    img {
+        width: 100%;
+        height: 100%;
+
+        border-radius: 30px;
+    }
+`;
+
+export { Button, Contact, SubHero, ImgWrapper, ImgCard };

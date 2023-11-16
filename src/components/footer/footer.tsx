@@ -48,14 +48,14 @@ const Footer: React.FC<FooterProps> = () => {
 
           {/* ============= Connect grid ============ */}
           <GridItem w='100%'>
-            <Heading color={`${colors.primaryColor}`} fontSize='16px'>Contact</Heading>
+            <Heading color={`${colors.primaryColor}`} fontSize='16px'>Social</Heading>
 
             <FooterLinks>
-              <li><a href="#">Help Centre</a></li>
-              <li><a href="#">Terms & Conditions</a></li>
-              <li><a href="#">Privacy Policy </a></li>
-              <li><a href="#">Site Map</a></li>
-              <li><a href="#">Community</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">X</a></li>
+              <li><a href="#">YouTube </a></li>
+              <li><a href="#">LinkedIn</a></li>
+              <li><a href="#">Whatsapp Community</a></li>
             </FooterLinks>
           </GridItem>
         </Grid>

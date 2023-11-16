@@ -3,7 +3,7 @@ import { Container, Heading, Flex, Box, Stack, Text, Button } from '@chakra-ui/r
 import { ImgWrapper, Contact } from "@/styles/home.style";
 import { colors } from "@/styles/theme";
 import Image from 'next/image';
-import { CreditCard, CreditCardPayments, Payments } from "../../../public/assets/index";
+import { CreditCard, CreditCardPayments, Payments } from "../../../../public/assets/index";
 import { BsArrowRight } from 'react-icons/bs'
 
 interface WhatWeDoProps {}

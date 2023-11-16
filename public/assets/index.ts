@@ -4,6 +4,9 @@ import kampus from './kampus.jpg'
 import CreditCard from './credit_card.svg'
 import CreditCardPayments from './credit_card_payment.svg'
 import Payments from './online_payments.svg'
+import Vlada from './vlada.jpg'
+import williams from './williams.jpg'
+import lady from './lady.jpg'
 
 export {
   logo,
@@ -12,4 +15,7 @@ export {
   CreditCard,
   CreditCardPayments,
   Payments,
+  williams,
+  Vlada,
+  lady,
 };

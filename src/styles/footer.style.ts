@@ -41,6 +41,11 @@ const FooterLinks = styled.ul<FooterLinksProps>`
         a {
             font-weight: 400;
         }
+        &:hover {
+            color: ${colors.primaryColor};
+            opacity: .9;
+            transition: .3s all ease-in-out;
+        }
     }
 `;
 
