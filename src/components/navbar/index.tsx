@@ -10,9 +10,11 @@ const Navbar: React.FC<NavbarProps> = () => {
 
   return (
     <Wrapper suppressHydrationWarning>
-      <Logo>
-        <Image src={NavLogo} alt='logo' />
-      </Logo>
+      <a href='/'>
+        <Logo>
+          <Image src={NavLogo} alt='logo' />
+        </Logo>
+      </a>
       <NavLinks>
         <li>
           <a href="/about">About</a>

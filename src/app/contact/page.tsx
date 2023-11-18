@@ -1,7 +1,12 @@
-export default function Page() {
-    return 
-    <div>
-        <h1>ABOUT Page</h1>
-        <p>Hello, Next.js!</p>
-    </div>
+"use client"
+import Layout from "@/components/layout/layout"
+import React from "react"
+
+const Contact: React.FC = () => {
+    return (
+        <Layout>
+        </Layout>
+    )
 }
+
+export default Contact;
