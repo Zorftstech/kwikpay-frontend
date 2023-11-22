@@ -9,7 +9,7 @@ interface FooterProps {}
 
 const Footer: React.FC<FooterProps> = () => {
   return (
-    <Container bg={`${colors.darkColor}`} placeContent='center' mt='4rem'>
+    <Container bg={`${colors.darkColor}`} placeContent='center' mt='10rem'>
       <FooterWrapper>
         <Grid templateColumns='repeat(4, 1fr)' gap={4}>
 
