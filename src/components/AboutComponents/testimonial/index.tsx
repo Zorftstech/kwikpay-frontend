@@ -107,7 +107,7 @@ export default function Testimonials() {
         {/* heading  */}
         <Stack spacing={0} align={'center'}>
           <Heading fontSize='54px'>Our Clients Testimonials</Heading>
-          <Text>Over 10,000 businesses trust KwikPay to power payments. Here's what some of them have to say.</Text>
+          <Text>Over 10,000 businesses trust KwikPay to power payments. Here`s what some of them have to say.</Text>
         </Stack>
 
         <Stack

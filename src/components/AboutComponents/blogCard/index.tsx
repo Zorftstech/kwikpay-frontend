@@ -19,11 +19,11 @@ interface BlogCardProps {
     id: number;
     title: string;
     text: string;
-    image: string;
+    img: string;
     time: string;
 }
 
-const BlogCard: React.FC<BlogCardProps> = ({ id, image, title, text, time }) => {
+const BlogCard: React.FC<BlogCardProps> = ({ id, img, title, text, time }) => {
     return (
         <>
             <Center py={6} mb='4rem' rounded={'lg'}>
@@ -39,7 +39,7 @@ const BlogCard: React.FC<BlogCardProps> = ({ id, image, title, text, time }) => 
                     overflow={'hidden'}>
                     <Box h={'210px'} bg={'gray.100'} mt={-6} mx={-6} mb={6} pos={'relative'}>
                         <Image
-                            src={image}
+                            src={img}
                             fill
                             alt={title}
                             rounded={'lg'}
@@ -57,12 +57,6 @@ const BlogCard: React.FC<BlogCardProps> = ({ id, image, title, text, time }) => 
                             <GiSandsOfTime /><Text color={'gray.500'} fontSize='16px' fontWeight='400'> · {time}</Text>
                         </Flex>
                     </Stack>
-                    {/* <Stack mt={6} direction={'row'} spacing={4} align={'center'}>
-                        <Avatar src={profile} />
-                        <Stack direction={'column'} spacing={0} fontSize={'sm'}>
-                            <Text fontWeight={600}>Achim Rolle</Text>
-                        </Stack>
-                    </Stack> */}
                 </Box>
             </Center>
         </>

@@ -22,7 +22,7 @@ const About: React.FC = () => {
                 <Heading fontSize='54px' fontWeight='600' color={`${colors.primaryColor}`} textAlign='center' mt='7rem' mb='3rem'>Learn from our experts</Heading>
                 <Flex justify='center' align='center' gap='1rem'>
                     {blogs.slice(0, 3).map((item) => (
-                        <BlogCard id={item.id} title={item.title} image={item.image} text={item.text} time={item.time} /> 
+                        <BlogCard key={item.id} id={item.id} title={item.title} img={item.img} text={item.text} time={item.time} /> 
                     ))}
                 </Flex>
             </Container>
